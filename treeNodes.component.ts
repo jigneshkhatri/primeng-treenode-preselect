@@ -3,10 +3,9 @@ import {TreeModule,TreeNode} from 'primeng/primeng';
 
 @Component({
     templateUrl: './treeNodes.component.html'
-    
 })
 export class TreeNodesComponent implements OnInit  {
-    
+
     files: TreeNode[];
     selectedFiles: TreeNode[] = [];
     dataArray: string[] = [];
@@ -71,9 +70,8 @@ export class TreeNodesComponent implements OnInit  {
                         }]
                 }
             ];
-            this.dataArray = ["Expenses Document","Invoices for this month","PrimeFaces Logo","Untouchables Movie"];
-            this.checkNode(this.files, this.dataArray);
-          
+        this.dataArray = ["Expenses Document","Invoices for this month","PrimeFaces Logo","Untouchables Movie"];
+        this.checkNode(this.files, this.dataArray);
     }
 
     checkNode(nodes:TreeNode[], str:string[]) {
