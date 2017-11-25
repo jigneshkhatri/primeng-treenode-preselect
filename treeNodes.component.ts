@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {TreeModule,TreeNode} from 'primeng/primeng';
+import {TreeNode} from 'primeng/primeng';
 
 @Component({
     templateUrl: './treeNodes.component.html'
